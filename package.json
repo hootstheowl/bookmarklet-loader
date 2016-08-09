@@ -1,0 +1,26 @@
+{
+  "name": "bookmarklet-loader",
+  "version": "0.0.1",
+  "description": "Bookmarklet loader for webpack",
+  "main": "index.js",
+  "keywords": [
+    "bookmarklet",
+    "webpack",
+    "loader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hootstheowl/bookmarklet-loader.git"
+  },
+  "author": "Shawn Scofield",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "uglify-js": "^2.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
