@@ -36,13 +36,13 @@ import bookmarklet from 'app/bookmarklets/bookmarklet';
 // via JSX
 return (
   <a href={bookmarklet}>
-    Click me, I'm a bookmarklet.
+    Click me, I am a bookmarklet.
   </a>
 );
 
 // via vanilla JS
 let link = document.createElement('a');
     link.href = bookmarklet;
-    link.innerHTML = 'Click me, I\'m a bookmaklet';
+    link.innerHTML = 'Click me, I am a bookmaklet';
 return link;
 ```
